@@ -1,0 +1,35 @@
+section {
+	text-align: center;
+}
+
+section > div:not(:first-of-type) {
+	margin: 5px 0px;
+}
+
+#container {
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	padding: 5px;
+	position: relative;
+	top: 50px;
+}
+
+#container + div {
+	margin-top: 40px;
+}
+
+.square {
+	width: 100px;
+	height: 60px;
+	margin: 5px;
+    padding: 20px 0px;
+    font-size: 50px;
+	display: inline-block;
+	border: 1px solid #000000;
+	vertical-align: top;
+}
+
+input, label {
+	cursor: pointer;
+}
